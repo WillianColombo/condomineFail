@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.boom">
+    package="com.example.condomine">
    <application
-        android:label="boom"
+        android:label="condomine"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
