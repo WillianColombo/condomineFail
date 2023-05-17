@@ -55,11 +55,11 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           type: 'zip'
-          filename: flymovies-linux.zip
+          filename: condomine-linux.zip
           directory: build/linux/x64/release/bundle
       - name: Linux Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/linux/x64/release/bundle/flymovies-linux.zip"
+          artifacts: "build/linux/x64/release/bundle/condomine-linux.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: v1.0.${{ github.run_number }}l
